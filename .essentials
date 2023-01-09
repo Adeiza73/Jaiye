@@ -1,0 +1,24 @@
+const Header = () => {
+    return <header><Navbar bg="black" variant="dark" expand="lg" collapseOnSelect>
+        <Container> 
+      <LinkContainer to='/'>
+    <Navbar.Brand ><span style={{color:'red'}}>Jaiye</span></Navbar.Brand>
+    </LinkContainer>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="ms-auto">
+        <LinkContainer to='/about'><Nav.Link><span style={{color:'white'}}>About</span></Nav.Link></LinkContainer> 
+        <LinkContainer to='/help'><Nav.Link><span style={{color:'white'}}>Help</span></Nav.Link></LinkContainer> 
+        <LinkContainer to='/createEvent'><Nav.Link><span style={{color:'white'}}>Create Event</span></Nav.Link></LinkContainer>
+        <LinkContainer to='/bookings'><Nav.Link><span style={{color:'white'}}>Bookings</span></Nav.Link></LinkContainer>
+        <LinkContainer to='login'><Nav.Link><span style={{color:'white'}}>Log In</span></Nav.Link></LinkContainer>
+        <LinkContainer to='register'><Nav.Link><Button variant="danger" appearance="primary"><span style={{color:'white'}}>Sign Up</span></Button></Nav.Link></LinkContainer>
+      </Nav>
+    </Navbar.Collapse>
+    </Container>
+  </Navbar>
+  </header>
+
+}
+
+export default Header
