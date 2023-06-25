@@ -1,2 +1,2 @@
 # Jaiye
-TeamX comes up with an applicatiion that will revolutionize the world's entertainment and tourism industry.
+TeamX comes up with an application that will revolutionize the world's entertainment and tourism industry.
